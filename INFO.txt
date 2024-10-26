@@ -1,0 +1,18 @@
+                       Difference between functions 
+
+1. Function prototype : it is used to give a preview to the compiler so  
+                        that it's aware that some functions exists .
+                  int add ( int , int ) ;
+
+2. Function Decleration : it is used to tell the compiler about function 
+                          it is interchangeable with the prototype.
+                  int add ( int a , int b ) ;
+
+3. Function Definition : it tells the compiler about the complete 
+                         implementation of the function .
+                  int add(int a, int b) {  
+                  return a + b;
+                    }
+
+4. Function call : it's the instruction to execute the code written in  
+                   the upper function.
